@@ -7,6 +7,7 @@ const Home = () => {
         alt="My Image"
         width='100%'
       />
+      <hr />
     </section>
   );
 };
