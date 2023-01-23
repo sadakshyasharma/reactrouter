@@ -261,25 +261,31 @@ ul {
 
 .section {
   padding: 2rem 0;
-  width: 90vw;
-  max-width: var(--max-width);
+  width: auto;
+ 
   margin: 0 auto;
+
 }
 
 .navbar {
-  width: 90vw;
-  max-width: var(--max-width);
   margin: 0 auto;
   display: flex;
   gap: 1rem;
+  background-color: black;
+  justify-content: center;
+  
 }
 
 .link {
-  color: var(--grey-500);
+  color: whitesmoke;
+  font-size:xx-large;
+  font-family: cursive;
+  font-weight: bolder;
+  padding: 1rem;
 }
 
 .active {
-  color: red;
+  color: rgb(30, 231, 171);
 }
 .products article {
   margin-bottom: 1rem;
@@ -292,4 +298,9 @@ ul {
 .product img {
   width: 200px;
   height: 150px;
+}
+.homeh{
+margin: 0 ;
+  color: rgb(163, 206, 46);
+  background-color:rgb(19, 144, 182);
 }
