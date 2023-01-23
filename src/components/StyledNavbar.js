@@ -3,6 +3,10 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar">
+      <div>
+       
+        <img className="navimage" src="/images.png" alt="test"  width="20%" />
+      </div>
       <NavLink
         to="/"
         className={({ isActive }) => (isActive ? "link active" : "link")}

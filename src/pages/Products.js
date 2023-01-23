@@ -9,7 +9,7 @@ const Products = () => {
         {products.map((product) => {
           return (<article key={product.id}>
             <h5>{product.name}</h5>
-            <Link to={`/products/${product.id}`}>more info</Link>
+            <Link to={`/products/${product.id}`} style={{margin:"2rem"}}>more info</Link>
 </article>
         );
         })}
