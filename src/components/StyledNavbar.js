@@ -4,8 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div>
-       
-        <img className="navimage" src="/images.png" alt="test"  width="20%" />
+        <img className="navimage" src="/images.png" alt="test" width="20%" />
       </div>
       <NavLink
         to="/"
@@ -30,6 +29,13 @@ const Navbar = () => {
         className={({ isActive }) => (isActive ? "link active" : "link")}
       >
         Login
+      </NavLink>
+
+      <NavLink
+        to="/register"
+        className={({ isActive }) => (isActive ? "link active" : "link")}
+      >
+        Register
       </NavLink>
     </nav>
   );

@@ -24,7 +24,7 @@ const Login = ({setUser}) => {
         <div className="form-row">
           <label htmlFor="name" className="form-label">
             name
-          </label>
+          </ label>
           <input
             type="text"
             className="form-input"
@@ -36,7 +36,7 @@ const Login = ({setUser}) => {
         <div className="form-row">
           <label htmlFor="email" className="form-label">
             email
-          </label>
+          </ label>
           <input
             type="email"
             className="form-input"
@@ -50,9 +50,9 @@ const Login = ({setUser}) => {
         </button>
       </form>
       <hr />
-      <h2>If you are not a member then go to Homepage </h2>
-      <Link to="/" className="btn">
-        Homepage
+      <h2>If you are not a member then go and get yorself register </h2>
+      <Link to="/register" className="btn">
+        Register Here
       </Link>
       <hr />
     </section>
